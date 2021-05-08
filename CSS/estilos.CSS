@@ -1,0 +1,22 @@
+/* css Document */
+#menu ul{
+    list-style: none; /*quitar estilo de lista las puntos negros*/
+    margin: 0;
+    padding: 0;
+}
+/*nos identifica que en el menu existne unos identificadores llamados item*/
+#menu #item {
+
+    float: left; /*nos permite colocar el menu en forma horizontal*/
+
+}
+/*cambiar el color a la letra que esta en el menu con la etiqueta a*/
+#menu #item a{
+background-color: cornsilk; /*cambia el color del fondo menu*/
+color: darkred; /*color letra menu*/
+padding:20px 128px; /*margen por dentro de la caja menu*/
+display: block; /*forma a la caja*/
+font-family: Arial, Helvetica, sans-serif;/*tipo letra*/
+font-size: 22px; /*tamaño letra*/
+text-decoration: none;/*le quita el subrayado a las letra */
+}
